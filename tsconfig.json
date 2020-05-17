@@ -13,10 +13,11 @@
 
     // Source Maps
     "inlineSourceMap": true,
+    "outDir": "dist",
 
     // Features
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*"]
 }

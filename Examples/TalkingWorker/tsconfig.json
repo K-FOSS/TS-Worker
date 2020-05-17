@@ -1,5 +1,4 @@
 {
-  "extends": "./tsconfig.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -14,11 +13,10 @@
 
     // Source Maps
     "inlineSourceMap": true,
-    "outDir": "dist",
 
     // Features
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts"]
 }

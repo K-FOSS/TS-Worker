@@ -1,5 +1,5 @@
 {
-  "name": "TS-Core Container",
+  "name": "TS-Worker Container",
   "dockerFile": "./Dockerfile.dev",
   "settings": {
     // This dev container does include /bin/bash if you prefer to use it instead of ash.
@@ -10,12 +10,18 @@
     "SHELL": "/bin/sh"
   },
 
-  "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "visualstudioexptteam.vscodeintellicode",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker"
+  ],
   "remoteUser": "node",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
   "workspaceFolder": "/workspace",
   "mounts": [
-    "source=ts-core-modules,target=/workspace/node_modules,type=volume"
+    "source=ts-worker-modules,target=/workspace/node_modules,type=volume"
   ],
   "postCreateCommand": "sudo chown node node_modules && npm i"
 }
