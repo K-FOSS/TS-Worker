@@ -4,6 +4,7 @@
   "description": "TS-Worker is a few small utilities for working with Threads and Workers in JS/TS/Node.JS",
   "main": "dist/index.js",
   "type": "module",
+  "private": false,
   "repository": "https://github.com/K-FOSS/TS-Worker.git",
   "files": [
     "dist/**/*.js",
