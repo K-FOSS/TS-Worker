@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "test": "echo TODO",
+    "prepublishOnly": "npm run build",
     "build": "node --loader @k-foss/ts-esnode --experimental-modules --experimental-specifier-resolution=node ./bin/build.ts",
     "start:debug": "node --loader @k-foss/ts-esnode --experimental-modules --harmony-optional-chaining --experimental-specifier-resolution=node --harmony-top-level-await ./",
     "prettier": "prettier --config .prettierrc --check \"src/**/*ts\" \"bin/**/*.ts\"",
