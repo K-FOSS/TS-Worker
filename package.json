@@ -4,7 +4,7 @@
   "description": "TS-Worker is a few small utilities for working with Threads and Workers in JS/TS/Node.JS",
   "main": "dist/index.js",
   "type": "module",
-  "repository": "https://github.com/K-FOSS/TS-ESWorker.git",
+  "repository": "https://github.com/K-FOSS/TS-Worker.git",
   "files": [
     "dist/**/*.js",
     "README.md"
@@ -12,7 +12,9 @@
   "scripts": {
     "test": "echo TODO",
     "build": "node --loader @k-foss/ts-esnode --experimental-modules --experimental-specifier-resolution=node ./bin/build.ts",
-    "start:debug": "node --loader @k-foss/ts-esnode --experimental-modules --harmony-optional-chaining --experimental-specifier-resolution=node --harmony-top-level-await ./"
+    "start:debug": "node --loader @k-foss/ts-esnode --experimental-modules --harmony-optional-chaining --experimental-specifier-resolution=node --harmony-top-level-await ./",
+    "prettier": "prettier --config .prettierrc --check \"src/**/*ts\" \"bin/**/*.ts\"",
+    "lint": "eslint ./src --ext .js,.ts"
   },
   "engines": {
     "node": ">= 13.9"
@@ -52,13 +54,9 @@
       "project": "./tsconfig.json",
       "tsconfigRootDir": "."
     },
-    "env": {
-      "jest/globals": true
-    },
     "plugins": [
       "@typescript-eslint",
-      "prettier",
-      "jest"
+      "prettier"
     ],
     "extends": [
       "standard",
