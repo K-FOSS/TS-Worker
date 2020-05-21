@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/K-FOSS/TS-Worker/compare/v1.0.2...v1.0.3) (2020-05-21)
+
+
+### Bug Fixes
+
+* **declaration:** Emit declaration ([a25ecb1](https://github.com/K-FOSS/TS-Worker/commit/a25ecb16d83967084ba81497585ce876f40ca46b))
+
 ## [1.0.2](https://github.com/K-FOSS/TS-Worker/compare/v1.0.1...v1.0.2) (2020-05-17)
 
 
