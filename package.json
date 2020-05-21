@@ -8,6 +8,7 @@
   "repository": "https://github.com/K-FOSS/TS-Worker.git",
   "files": [
     "dist/**/*.js",
+    "dist/**/*.d.ts",
     "README.md"
   ],
   "scripts": {
