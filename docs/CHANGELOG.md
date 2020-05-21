@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/K-FOSS/TS-Worker/compare/v1.0.3...v1.0.4) (2020-05-21)
+
+
+### Bug Fixes
+
+* **declaration:** Add declaration files to npm package ([df2fa7c](https://github.com/K-FOSS/TS-Worker/commit/df2fa7ccdd47ef5ab9f5a29ed2485c607aea83f7))
+
 ## [1.0.3](https://github.com/K-FOSS/TS-Worker/compare/v1.0.2...v1.0.3) (2020-05-21)
 
 
