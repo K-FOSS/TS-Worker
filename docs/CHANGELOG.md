@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/K-FOSS/TS-Worker/compare/v1.0.4...v1.0.5) (2020-05-23)
+
+
+### Bug Fixes
+
+* **workerEntry:** Include worker entry in dist ([9e0c311](https://github.com/K-FOSS/TS-Worker/commit/9e0c3119889114be1a88fee73ed73ad25f94fbb2))
+
 ## [1.0.4](https://github.com/K-FOSS/TS-Worker/compare/v1.0.3...v1.0.4) (2020-05-21)
 
 
