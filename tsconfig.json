@@ -16,6 +16,8 @@
     "outDir": "dist",
     "declaration": true,
 
+    "allowJs": true,
+
     // Features
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
